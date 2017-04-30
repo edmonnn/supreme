@@ -1,0 +1,88 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="database">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="customer" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="firstName"/>
+              <xs:element type="xs:string" name="surName"/>
+              <xs:element type="xs:date" name="dateOfBirth"/>
+              <xs:element type="xs:byte" name="age"/>
+              <xs:element type="xs:string" name="gender"/>
+              <xs:element type="xs:string" name="favoriteGenre"/>
+              <xs:element type="xs:string" name="favoriteActor"/>
+              <xs:element type="xs:string" name="status"/>
+              <xs:element type="xs:string" name="job"/>
+              <xs:element type="xs:string" name="email"/>
+              <xs:element type="xs:long" name="phoneNumber"/>
+              <xs:element type="xs:string" name="nationality"/>
+              <xs:element type="xs:string" name="hometown"/>
+              <xs:element type="xs:string" name="hobby"/>
+              <xs:element type="xs:string" name="maritalStatus"/>
+              <xs:element type="xs:long" name="passportId"/>
+              <xs:element name="irentAccount">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="login"/>
+                    <xs:element type="xs:string" name="password"/>
+                    <xs:element type="xs:string" name="newsletterStatus"/>
+                    <xs:element type="xs:string" name="emailNotification"/>
+                    <xs:element type="xs:string" name="phoneNotification"/>
+                    <xs:element type="xs:string" name="premiumAccount"/>
+                    <xs:element type="xs:date" name="dateOfRegistration"/>
+                    <xs:element type="xs:date" name="lastVisit"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="country"/>
+                    <xs:element type="xs:string" name="city"/>
+                    <xs:element type="xs:string" name="district"/>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element type="xs:string" name="number"/>
+                    <xs:element type="xs:short" name="apartment"/>
+                    <xs:element type="xs:int" name="zip"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="movies">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="movie">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="title"/>
+                          <xs:element type="xs:string" name="distributedBy"/>
+                          <xs:element type="xs:string" name="producer"/>
+                          <xs:element type="xs:string" name="soundtrack"/>
+                          <xs:element type="xs:string" name="genre"/>
+                          <xs:element type="xs:short" name="year"/>
+                          <xs:element type="xs:string" name="country"/>
+                          <xs:element type="xs:decimal" name="imdbRating"/>
+                          <xs:element type="xs:string" name="budget"/>
+                          <xs:element type="xs:string" name="boxOffice"/>
+                          <xs:element type="xs:short" name="runningTime"/>
+                          <xs:element type="xs:byte" name="certificate"/>
+                          <xs:element type="xs:string" name="originalLanguage"/>
+                          <xs:element type="xs:string" name="3D"/>
+                          <xs:element type="xs:string" name="4D"/>
+                          <xs:element type="xs:date" name="dateOfPickUp"/>
+                          <xs:element type="xs:date" name="dateOfReturn"/>
+                          <xs:element type="xs:string" name="pastDue"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<database>
+    <customer id="150">
+        <firstName>Polina</firstName>
+        <surName>Gagarina</surName>
+        <dateOfBirth>19-01-1995</dateOfBirth>
+        <age>22</age>
+        <gender>F</gender>
+        <favoriteGenre>Drama</favoriteGenre>
+        <favoriteActor>Leonardo DiCaprio</favoriteActor>
+        <status>Student</status>
+        <job>No</job>
+        <email>polga95@mail.ru</email>
+        <phoneNumber>+79243658799</phoneNumber>
+        <nationality>Russian</nationality>
+        <hometown>Moscow</hometown>
+        <hobby>Music</hobby>
+        <maritalStatus>Single</maritalStatus>
+        <passportId>78965432</passportId>
+        <irentAccount>
+            <login>poga95</login>
+            <password>9polina</password>
+            <newsletterStatus>Signed</newsletterStatus>
+            <emailNotification>Yes</emailNotification>
+            <phoneNotification>No</phoneNotification>
+            <premiumAccount>No</premiumAccount>
+            <dateOfRegistration>12-04-2016</dateOfRegistration>
+            <lastVisit>29-04-2017</lastVisit>
+        </irentAccount>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <district>Prague 3</district>
+            <street>Jeseniova</street>
+            <number>165/32</number>
+            <apartment>52</apartment>
+            <zip>13000</zip>
+        </address>
+        <movies>
+            <movie>
+                <title>Titanic</title>
+                <distributedBy>20th Century Fox</distributedBy>
+                <producer>James Cameron</producer>
+                <soundtrack>James Horner</soundtrack>
+                <genre>Drama</genre>
+                <year>1997</year>
+                <country>United States</country>
+                <imdbRating>7.7</imdbRating>
+                <budget>$200 million</budget>
+                <boxOffice>$2.187 billion</boxOffice>
+                <runningTime>195 minutes</runningTime>
+                <certificate>12+</certificate>
+                <originalLanguage>English</originalLanguage>
+                <3D>Yes</3D>
+                <4D>No</4D>
+                <dateOfPickUp>27-04-2017</dateOfPickUp>
+                <dateOfReturn>09-05-2017</dateOfReturn>
+                <pastDue>No</pastDue>
+            </movie>
+        </movies>
+    </customer>
+    
+    <customer id="346">
+        <firstName>Dmitry</firstName>
+        <surName>Frolov</surName>
+        <dateOfBirth>11-08-1996</dateOfBirth>
+        <age>20</age>
+        <gender>M</gender>
+        <favoriteGenre>Action</favoriteGenre>
+        <favoriteActor>Benedict Cumberbatch</favoriteActor>
+        <status>Student</status>
+        <job>No</job>
+        <email>frocumber@mail.ru</email>
+        <phoneNumber>+79242678977</phoneNumber>
+        <nationality>Russian</nationality>
+        <hometown>Irkutsk</hometown>
+        <hobby>Sport</hobby>
+        <maritalStatus>Single</maritalStatus>
+        <passportId>56982164</passportId>
+        <irentAccount>
+            <login>dmifro</login>
+            <password>145dmiqw</password>
+            <newsletterStatus>Signed</newsletterStatus>
+            <emailNotification>No</emailNotification>
+            <phoneNotification>No</phoneNotification>
+            <premiumAccount>Yes</premiumAccount>
+            <dateOfRegistration>16-02-2017</dateOfRegistration>
+            <lastVisit>21-04-2017</lastVisit>
+        </irentAccount>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <district>Prague 3</district>
+            <street>Koněvova</street>
+            <number>1743/114</number>
+            <apartment>65</apartment>
+            <zip>13000</zip>
+        </address>
+        <movies>
+            <movie>
+                <title>Avengers</title>
+                <distributedBy>Walt Disney</distributedBy>
+                <producer>Kevin Feige</producer>
+                <soundtrack>Alan Silvestri</soundtrack>
+                <genre>Action</genre>
+                <year>2012</year>
+                <country>United States</country>
+                <imdbRating>8.1</imdbRating>
+                <budget>$220 million</budget>
+                <boxOffice>$1.519 billion</boxOffice>
+                <runningTime>143 minutes</runningTime>
+                <certificate>12+</certificate>
+                <originalLanguage>English</originalLanguage>
+                <3D>No</3D>
+                <4D>No</4D>
+                <dateOfPickUp>20-04-2017</dateOfPickUp>
+                <dateOfReturn>25-04-2017</dateOfReturn>
+                <pastDue>Yes</pastDue>
+            </movie>
+        </movies>
+    </customer>
+    
+    <customer id="455">
+        <firstName>Sergey</firstName>
+        <surName>Bazhenov</surName>
+        <dateOfBirth>28-09-1993</dateOfBirth>
+        <age>23</age>
+        <gender>M</gender>
+        <favoriteGenre>Drama</favoriteGenre>
+        <favoriteActor>Jack Nicholson</favoriteActor>
+        <status>Student</status>
+        <job>No</job>
+        <email>serbaz1993@gmail.com</email>
+        <phoneNumber>+79145669874</phoneNumber>
+        <nationality>Russian</nationality>
+        <hometown>Vladivostok</hometown>
+        <hobby>Football</hobby>
+        <maritalStatus>Single</maritalStatus>
+        <passportId>78922236</passportId>
+        <irentAccount>
+            <login>sergey777</login>
+            <password>bazhenov88</password>
+            <newsletterStatus>Signed</newsletterStatus>
+            <emailNotification>No</emailNotification>
+            <phoneNotification>No</phoneNotification>
+            <premiumAccount>No</premiumAccount>
+            <dateOfRegistration>25-01-2015</dateOfRegistration>
+            <lastVisit>22-04-2017</lastVisit>
+        </irentAccount>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <district>Prague 6</district>
+            <street>Kamycka</street>
+            <number>129/15</number>
+            <apartment>12</apartment>
+            <zip>16500</zip>
+        </address>
+        <movies>
+            <movie>
+                <title>Fight Club</title>
+                <distributedBy>20th Century Fox</distributedBy>
+                <producer>Art Linson</producer>
+                <soundtrack>The Dust Brothers</soundtrack>
+                <genre>Crime</genre>
+                <year>1999</year>
+                <country>United States</country>
+                <imdbRating>8.8</imdbRating>
+                <budget>$63 million</budget>
+                <boxOffice>$100.9 million</boxOffice>
+                <runningTime>139 minutes</runningTime>
+                <certificate>18+</certificate>
+                <originalLanguage>English</originalLanguage>
+                <3D>No</3D>
+                <4D>No</4D>
+                <dateOfPickUp>18-04-2017</dateOfPickUp>
+                <dateOfReturn>27-04-2017</dateOfReturn>
+                <pastDue>Yes</pastDue>
+            </movie>
+        </movies>
+    </customer>
+    
+    <customer id="654">
+        <firstName>Alexey</firstName>
+        <surName>Goncov</surName>
+        <dateOfBirth>21-05-1991</dateOfBirth>
+        <age>25</age>
+        <gender>M</gender>
+        <favoriteGenre>Drama</favoriteGenre>
+        <favoriteActor>Kevin Spacey</favoriteActor>
+        <status>Student</status>
+        <job>Yes</job>
+        <email>algonc65@inbox.ru</email>
+        <phoneNumber>+79356879878</phoneNumber>
+        <nationality>Russian</nationality>
+        <hometown>Krasnodar</hometown>
+        <hobby>Basketball</hobby>
+        <maritalStatus>Single</maritalStatus>
+        <passportId>75567899</passportId>
+        <irentAccount>
+            <login>alexey7779</login>
+            <password>miracle78</password>
+            <newsletterStatus>Signed</newsletterStatus>
+            <emailNotification>Yes</emailNotification>
+            <phoneNotification>Yes</phoneNotification>
+            <premiumAccount>No</premiumAccount>
+            <dateOfRegistration>11-07-2014</dateOfRegistration>
+            <lastVisit>20-04-2017</lastVisit>
+        </irentAccount>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <district>Prague 6</district>
+            <street>Kamycka</street>
+            <number>129/15</number>
+            <apartment>16</apartment>
+            <zip>16500</zip>
+        </address>
+        <movies>
+            <movie>
+                <title>Pulp Fiction</title>
+                <distributedBy>Miramax Films</distributedBy>
+                <producer>Lawrence Bender</producer>
+                <soundtrack>No compositor</soundtrack>
+                <genre>Crime</genre>
+                <year>1994</year>
+                <country>United States</country>
+                <imdbRating>8.9</imdbRating>
+                <budget>$8 million</budget>
+                <boxOffice>$213.9 million</boxOffice>
+                <runningTime>154 minutes</runningTime>
+                <certificate>18+</certificate>
+                <originalLanguage>English</originalLanguage>
+                <3D>No</3D>
+                <4D>No</4D>
+                <dateOfPickUp>15-04-2017</dateOfPickUp>
+                <dateOfReturn>21-04-2017</dateOfReturn>
+                <pastDue>Yes</pastDue>
+            </movie>
+        </movies>
+    </customer>
+    
+      <customer id="150">
+        <firstName>Calvin</firstName>
+        <surName>Sergeev</surName>
+        <dateOfBirth>08-06-1990</dateOfBirth>
+        <age>26</age>
+        <gender>M</gender>
+        <favoriteGenre>Drama</favoriteGenre>
+        <favoriteActor>John Travolta</favoriteActor>
+        <status>Student</status>
+        <job>No</job>
+        <email>calser001@mail.ru</email>
+        <phoneNumber>+79289651236</phoneNumber>
+        <nationality>Ukrainian</nationality>
+        <hometown>Kiev</hometown>
+        <hobby>Music</hobby>
+        <maritalStatus>Single</maritalStatus>
+        <passportId>36524518</passportId>
+        <irentAccount>
+            <login>cal111</login>
+            <password>ser897qw</password>
+            <newsletterStatus>Signed</newsletterStatus>
+            <emailNotification>Yes</emailNotification>
+            <phoneNotification>No</phoneNotification>
+            <premiumAccount>No</premiumAccount>
+            <dateOfRegistration>10-09-2016</dateOfRegistration>
+            <lastVisit>27-04-2017</lastVisit>
+        </irentAccount>
+        <address>
+            <country>Czech Republic</country>
+            <city>Prague</city>
+            <district>Prague 6</district>
+            <street>Thakurova</street>
+            <number>550/1</number>
+            <apartment>64</apartment>
+            <zip>16000</zip>
+        </address>
+        <movies>
+            <movie>
+                <title>The Godfather</title>
+                <distributedBy>Paramount Pictures</distributedBy>
+                <producer>Albert S. Ruddy</producer>
+                <soundtrack>	Nino Rota</soundtrack>
+                <genre>Crime</genre>
+                <year>1972</year>
+                <country>United States</country>
+                <imdbRating>9.2</imdbRating>
+                <budget>$6.5 million</budget>
+                <boxOffice>$245.1 million</boxOffice>
+                <runningTime>177 minutes</runningTime>
+                <certificate>16+</certificate>
+                <originalLanguage>English</originalLanguage>
+                <3D>No</3D>
+                <4D>No</4D>
+                <dateOfPickUp>14-04-2017</dateOfPickUp>
+                <dateOfReturn>28-04-2017</dateOfReturn>
+                <pastDue>Yes</pastDue>
+            </movie>
+        </movies>
+    </customer>
+</database>

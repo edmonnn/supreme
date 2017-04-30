@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Markup Languages</title>
+</head>
+<body>
+   <article>
+       <header>
+           <center><h1>iRent</h1></center> 
+           <center><h3>Markup Languages project</h3></center>
+           <h3>Table of Contents</h3>
+           <ol>
+               <li><a title="Go to Introduction section" href="#introduction">Introduction</a></li>
+               <li><a title="Go to Methodology section" href="#methodology">Methodology</a></li>
+               <li><a title="Go to Work content section" href="#content">Work content</a></li>
+               <li><a title="Go to Elements section" href="#elements">Elements</a></li>
+               <li><a title="Go to Transformation section" href="#transformation">Transformation</a></li>
+               <li><a title="Go to Conclusion section" href="#conclusion">Conclusion</a></li>
+               <li><a title="GitHub Repository" href="#repository">GitHub Repository</a></li>
+           </ol>
+       </header>
+       <br>
+       <br>
+       <center><h2><a id="introduction">Introduction to Renting movies system</a></h2></center>
+            <center><p>
+                This project shows you how Renting movies system is working. It contains such information as: customer, movie and rent data.
+            </p></center>
+        <br>
+       <h2><a id="methodology"><center>Methodology</center></a></h2>
+            <p><center>
+                Technologies that were used in this project:</center>
+                </p>
+                
+                <ul>
+                    <center><b>HTML</b></center>
+                    <center><b>XML</b></center>
+                    <center><b>XML Schema</b></center>
+                    <center><b>XSL</b></center>
+                    <center><b>XSLT</b></center>
+                </ul>
+                
+            
+        <br>
+        <center><h2><a id="content">Work content</a></h2></center>
+            <center><p>
+                This project consists files with such type:
+                </p></center>
+                <ol>
+                    <center><b>HTML</b></center>
+                    <center><b>XML</b></center>
+                    <center><b>XSD</b></center>
+                    <center><b>XSLT</b></center>
+                </ol>            
+        <br>
+        <h2><a id="elements">Elements of the XML</a></h2>
+            <p>
+            Database is the root element, it contains 5 customer records as a child elements.
+            </p>
+            <p>Each entry of customer has:</p>
+                <section>
+                    <h4>Customer data</h4>
+                        <ul>
+                            <li>First name</li>
+                            <li>Surname</li>
+                            <li>Age</li>
+                            <li>Status</li>
+                            <li>Job</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+                <section>
+                    <h4>Account data</h4>
+                        <ul>
+                            <li>Login</li>
+                            <li>Password</li>
+                            <li>Newsletter status</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+                <section>
+                    <h4>Address</h4>
+                        <ul>
+                            <li>Country</li>
+                            <li>City</li>
+                            <li>District</li>
+                            <li>Street</li>
+                            <li>Number</li>
+                            <li>etc.</li>
+                        </ul>
+                    <h4>Movie rented</h4>
+                        <ul>
+                            <li>Title</li>
+                            <li>Producer</li>
+                            <li>Genre</li>
+                            <li>Year</li>
+                            <li>Country</li>
+                            <li>etc.</li>
+                        </ul>
+                </section>
+                <section>
+                    
+        <br>
+       <center><h2><a id="transformation">HTML table Transformation</a></h2></center>
+            <center><p>
+                XSLT has been used for this transformation of XML to an HTML table with customers.
+            </p>
+            <p>
+                All entries choosed by random from database. Customers, who didn't bring back movie by the time are marked with red color.
+                </p></center>
+                <section>
+                    <center><table border="1">
+                         <tr bgcolor="#F5F5F5">
+                            <th>First name</th>
+                            <th>Surname</th>
+                            <th>Movie</th>
+                            <th>Date of return</th>
+                            <th>Past due</th>
+                         </tr>
+                         <tr>
+                            <td>Dmitry</td>
+                            <td>Frolov</td>
+                            <td>Avengers</td>
+                            <td>25.04.2017</td>
+                            <td style="background-color:#ff0000">Yes</td>
+                         </tr>
+                         <tr>
+                            <td>Polina</td>
+                            <td>Gagarina</td>
+                            <td>Titanic</td>
+                            <td>09.05.2017</td>
+                            <td style="background-color:#00FF00">No</td>
+                         </tr>
+                         <tr>
+                            <td>Sergey</td>
+                            <td>Bazhenov</td>
+                            <td>Fight Club</td>
+                            <td>27.04.2017</td>
+                            <td style="background-color:#ff0000">Yes</td>
+                         </tr>
+                         <tr>
+                            <td>Alexey</td>
+                            <td>Goncov</td>
+                            <td>Pulp Fiction</td>
+                            <td>21.04.2017</td>
+                            <td style="background-color:#ff0000">Yes</td>
+                         </tr>
+                         <tr>
+                            <td>Calvin</td>
+                            <td>Sergeev</td>
+                            <td>The Godfather</td>
+                            <td>28.04.2017</td>
+                            <td style="background-color:#ff0000">Yes</td>
+                         </tr>
+                      </table></center>
+                </section>
+        <br>
+        <center><h2><a id="conclusion">Conclusion</a></h2></center>
+        <center><p>This is the project which shows you an example of Movie Renting system. You can find in the system all needed information about customers, movies they rent etc. Movies are rented as DVD discs.</p></center>
+        <center><h3><a id="repository">Link to GitHub Repository</a></h3></center>
+        <center><p><a href="https://github.com/edmonnn/semestrial-project.git">GitHub Repository</a></p></center>
+    </article>
+   <br>
+   <br>
+   <br>
+   <footer>
+         <U><p align="right">Created by Edmon Avetisyan. Studying in CULS</p></U>     
+   </footer>
+    
+</body>
+</html>
